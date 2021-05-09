@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  server:
+    image: gcd-web-server-image:latest
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: 8080
